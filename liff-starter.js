@@ -1,7 +1,8 @@
 window.onload = function (e) {
-    liff.init(function () {
+    liff.init({ liffId: "1656297122-VM3K9RqL" }, () => {
+      if (liff.isLoggedIn()) {
         getP();
-    });
+    }});
 };
 
 function getP(){
