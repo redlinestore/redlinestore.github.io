@@ -1,5 +1,5 @@
 window.onload = function (e) {
-    liff.init({ liffId: "1656297122-VM3K9RqL" }, () => {
+    liff.init({ liffId: getParameterByName('liffId') }, () => {
       if (liff.isLoggedIn()) {
         getP();
     }});
